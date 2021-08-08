@@ -11,12 +11,25 @@ export type RootStackParamList = {
 export type BottomTabParamList = {
   TabOne: undefined;
   TabTwo: undefined;
+  TabThree: undefined;
 };
 
 export type TabOneParamList = {
-  TabOneScreen: undefined;
+  HomeScreen: undefined;
 };
 
 export type TabTwoParamList = {
-  TabTwoScreen: undefined;
+  ProductScreen: undefined;
+};
+
+export type TabThreeParamList = {
+  ShoppingCartScreen: undefined;
+};
+
+export type TabFourParamList = {
+  AddressScreen: undefined;
+};
+
+export type MenuParamList = {
+  MenuScreen: undefined;
 };

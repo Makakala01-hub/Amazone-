@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "Amazon",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authamazon3fe2f0ab",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
